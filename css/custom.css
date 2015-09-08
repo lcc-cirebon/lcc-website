@@ -15,7 +15,7 @@ body {
     color: #2962FF;
 }
 
-a:hover {
+#footer a:hover, a:hover {
     color: #aaa;
 }
 
@@ -140,4 +140,16 @@ a {
 
 .nav .pagename:hover {
     color: inherit;
+}
+
+
+.zero {
+    padding: 0px;
+    margin: 0px;
+}
+
+.row-padding {
+  margin: 1% 0;
+  overflow: auto;
+  padding: 1px 8px;
 }
