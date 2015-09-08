@@ -1,0 +1,17 @@
+<header id="header">
+
+    <nav class="nav" tabindex="-1" onclick="this.focus()">
+			<div class="container">
+				<a class="pagename" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        <section class="item">
+          {% for page in site.pages %}
+            {% if page.title %}
+            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %}
+          {% endfor %}
+        </section>
+			</div>
+		</nav>
+    <button class="btn-close btn btn-sm">×</button>
+
+</header>
