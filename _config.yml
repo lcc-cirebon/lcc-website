@@ -12,8 +12,6 @@ disqus_shortname: ~
 baseurl: "" # the subpath of your site, e.g. /blog/
 markdown: kramdown
 highlighter: rogue
-source: source
-destination: public
 exclude: ["README.md", "Gemfile", "Gemfile.lock"]
 permalink: /blog/:title
 paginate: 8
