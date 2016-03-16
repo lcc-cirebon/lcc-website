@@ -1,0 +1,53 @@
+# General
+title: LCC Cirebon
+description: ~
+url: "http://lcc.cirebob.lp3i.ac.id" # url production.
+github:
+  org: lcc-cirebon
+  url: lcc-website
+google_site_verification: ~
+disqus_shortname: ~
+
+# Build settings
+baseurl: "" # the subpath of your site, e.g. /blog/
+markdown: kramdown
+highlighter: rogue
+source: source
+destination: public
+exclude: ["README.md", "Gemfile", "Gemfile.lock"]
+permalink: /blog/:title
+paginate: 8
+paginate_path: "blog/:num"
+recent_posts: 5
+excerpt_link: "Read on &rarr;"
+excerpt_separator: "<!--more-->"
+
+# Gemfiles
+#  Semusa sudah terinstall oleh `github-pages` gem.
+gems:
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  # - jekyll-gist
+  # - jekyll-github-metadata
+  - jemoji
+
+# Gems setting goes bellow
+feed:                                 # jekyll-feed
+  path: blog/atom.xml
+# repository: lcc-cirebon/lcc-website   # jekyll-github-metadata
+
+# Html Compress
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  ignore:
+    envs: []
+  blanklines: true
+  profile: false
+  startings: all

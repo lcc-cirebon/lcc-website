@@ -1,0 +1,5 @@
+- name: Arisan
+  description: Data randomizer: arisan software interactive.
+  github: lcc-cirebon/Arisan
+  language:
+    - JavaScript

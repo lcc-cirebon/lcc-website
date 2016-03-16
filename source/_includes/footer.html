@@ -1,0 +1,27 @@
+<footer id="footer">
+  <div class="source-link">
+
+  </div>
+  <div class="container">
+  <div class="row">
+    <div class="col c6">
+      <h4>{{ site.title }}</h4>
+      <p class="text">{{ site.description }}</p>
+      <p>Powered by <a href="//jekyllrb.com/">Jekyll</a></p>
+    </div><!-- /col-lg-6 -->
+
+    <div class="col c6">
+      <h4>Contact us</h4>
+      <p>
+        <a href="//twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a><br/>
+        <a href="//github.com/{{ site.github_username }}" target="_blank">Github</a><br/>
+      </p>
+    </div><!-- /col-lg-6 -->
+  </div>
+  </div>
+</div>
+<script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+<!--[if lt IE 7 ]>
+  <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+  <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+<![endif]-->
