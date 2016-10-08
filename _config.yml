@@ -9,7 +9,7 @@ google_site_verification: ~
 disqus_shortname: ~
 
 # Build settings
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/lcc-website/" # the subpath of your site, e.g. /blog/
 markdown: kramdown
 highlighter: rogue
 exclude: ["README.md", "Gemfile", "Gemfile.lock"]
